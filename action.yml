@@ -1,0 +1,16 @@
+name: 'Cevixe GitHub Actions'
+description: 'Runs Cevixe CLI via GitHub Actions.'
+author: 'Cevixe Framework <contact@cevixe.io>'
+branding:
+  icon: 'terminal'
+  color: 'yellow'
+inputs:
+  command:
+    description: 'Cevixe CLI command to execute.'
+    required: true
+outputs:
+  status:
+    description: 'Returned status code.'
+runs:
+  using: 'docker'
+  image: './Dockerfile'
