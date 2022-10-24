@@ -10,8 +10,8 @@ github.com/aws/jsii-runtime-go v1.70.0 h1:grgd4ZcLn9rApgLOSzll4u3xJsBL4qKbs2McxA
 github.com/aws/jsii-runtime-go v1.70.0/go.mod h1:Cd836+6/rhL8LbslPaGofAh8c7H75KVMF6bfHyNl7vY=
 github.com/cevixe/app v0.2.0 h1:bbe8eUJK9tYcYQWvU4M3hqMLiwCG5XGYR2gj3+bPn4U=
 github.com/cevixe/app v0.2.0/go.mod h1:nrQRzZg/2rur37LGscqO1bHfxgjAReTuEUJ7CmzeZVs=
-github.com/cevixe/cdk v0.3.0 h1:gWOF89Qi3trBd0+cR8VZVAMkgJt6lCxpYttZ3+YXMUA=
-github.com/cevixe/cdk v0.3.0/go.mod h1:XMhzXox6d0zeTQ5Yf+o4xktWrmQDtVbhb4ofrkrzIhU=
+github.com/cevixe/cdk v0.3.1 h1:Y7C77bGp/x9VhyYh5dkp979j0kjeOAm5HVTiys1iMUE=
+github.com/cevixe/cdk v0.3.1/go.mod h1:XMhzXox6d0zeTQ5Yf+o4xktWrmQDtVbhb4ofrkrzIhU=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
