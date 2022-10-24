@@ -12,10 +12,8 @@ github.com/aws/aws-sdk-go-v2/service/sso v1.11.24/go.mod h1:7ZC+G3rX2IsGKIhiGDFi
 github.com/aws/aws-sdk-go-v2/service/ssooidc v1.13.7/go.mod h1:sPh8yf7vmBOI/L9fqP55uq+T9WVoxnqrHMqyvgYC/gA=
 github.com/aws/aws-sdk-go-v2/service/sts v1.17.0/go.mod h1:9pZN58zQc5a4Dkdnhu/rI1lNBui1vP5B0giGCuUt2b0=
 github.com/aws/smithy-go v1.13.3/go.mod h1:Tg+OJXh4MB2R/uN61Ko2f6hTZwB/ZYGOtib8J3gBHzA=
-github.com/cevixe/app v0.2.1 h1:hsYPrekAgn5J2hqaffjyom0p26MLMrdxbayCwE+S15Q=
-github.com/cevixe/app v0.2.1/go.mod h1:nrQRzZg/2rur37LGscqO1bHfxgjAReTuEUJ7CmzeZVs=
-github.com/cevixe/cdk v0.3.3 h1:SSJw2GgreM1hZDD46gLBrJM1FsKR9n/cgq+caDoqgNQ=
-github.com/cevixe/cdk v0.3.3/go.mod h1:PDazxOHZ0H5CclIhQOIwnEeP1sYksYtPbBKklnOljb4=
+github.com/cevixe/cdk v0.3.4 h1:9nQfFDnoCLWMJE4v9ywaSkBBoG8MkYCaW/784Y6I5ME=
+github.com/cevixe/cdk v0.3.4/go.mod h1:PDazxOHZ0H5CclIhQOIwnEeP1sYksYtPbBKklnOljb4=
 github.com/google/go-cmp v0.5.8/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
 github.com/jmespath/go-jmespath v0.4.0/go.mod h1:T8mJZnbsbmF+m6zOOFylbeCJqk5+pHWvzYPziyZiYoo=
 github.com/jmespath/go-jmespath/internal/testify v1.5.1/go.mod h1:L3OGu8Wl2/fWfCI6z80xFu9LTZmf1ZRjMHUOPmWr69U=
