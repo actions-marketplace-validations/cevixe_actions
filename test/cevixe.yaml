@@ -1,0 +1,8 @@
+version: 2022-10-23
+project:
+  kind: application
+  name: inmu
+  description: Gestión de Inmuebles
+  domains:
+    - param
+    - request

@@ -23,6 +23,8 @@ RUN pip install --upgrade pip && \
 RUN npm install -g aws-cdk
 
 COPY cli /cli
+COPY test /test
+ENV CEVIXE_WORKSPACE="/test"
 
 COPY entrypoint.sh /entrypoint.sh
 
