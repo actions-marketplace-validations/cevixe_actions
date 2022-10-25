@@ -7,6 +7,7 @@ RUN apk --update --no-cache add nodejs npm python3 py3-pip jq curl bash git dock
 # Install golang
 COPY --from=golang:1.19-alpine /usr/local/go/ /usr/local/go/
 ENV PATH="/usr/local/go/bin:${PATH}"
+ENV GOPATH="/go"
 
 # Update npm
 RUN npm config set unsafe-perm true
@@ -20,7 +21,6 @@ RUN pip install --upgrade pip && \
 RUN npm install -g aws-cdk
 
 COPY cli /cli
-ENV GOPATH="/cli/vendor"
 
 COPY entrypoint.sh /entrypoint.sh
 

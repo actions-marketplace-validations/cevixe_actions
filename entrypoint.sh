@@ -10,7 +10,15 @@ function parseInputs(){
 	fi
 }
 
+function configureApp(){
+	appVersion="github.com/cevixe/app@v0.3.0"
+	go get $appVersion && \
+	cp -R $GOPATH/pkg/mod/$appVersion /app && \
+	export CEVIXE_APP_DIR="/app"
+}
+
 function runCevixeCli(){
+	cd /cli
 	echo "Run cvx ${INPUT_COMMAND}"
 	set -o pipefail
 	cdk ${INPUT_COMMAND} 2>&1 | tee output.log
@@ -46,7 +54,7 @@ ${output}
 function main(){
 	parseInputs
 	export CEVIXE_WORKSPACE=${GITHUB_WORKSPACE}
-	cd /cli
+	configureApp
 	runCevixeCli
 }
 
