@@ -19,6 +19,9 @@ function configureApp(){
 
 function runCevixeCli(){
 	cd /cli
+
+	configureApp
+
 	echo "Run cvx ${INPUT_COMMAND}"
 	set -o pipefail
 	cdk ${INPUT_COMMAND} 2>&1 | tee output.log
@@ -54,7 +57,6 @@ ${output}
 function main(){
 	parseInputs
 	export CEVIXE_WORKSPACE=${GITHUB_WORKSPACE}
-	configureApp
 	runCevixeCli
 }
 
