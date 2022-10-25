@@ -14,8 +14,8 @@ github.com/aws/aws-sdk-go-v2/service/sts v1.17.0/go.mod h1:9pZN58zQc5a4Dkdnhu/rI
 github.com/aws/smithy-go v1.13.3/go.mod h1:Tg+OJXh4MB2R/uN61Ko2f6hTZwB/ZYGOtib8J3gBHzA=
 github.com/cevixe/cdk v0.3.4 h1:9nQfFDnoCLWMJE4v9ywaSkBBoG8MkYCaW/784Y6I5ME=
 github.com/cevixe/cdk v0.3.4/go.mod h1:PDazxOHZ0H5CclIhQOIwnEeP1sYksYtPbBKklnOljb4=
-github.com/cevixe/cdk v0.4.1 h1:mWhZwcbyqH0/bRHL66l0yrufogjH7MvxSjnYTvkz3DE=
-github.com/cevixe/cdk v0.4.1/go.mod h1:+uDFT/Vux/0V9b4daIfuP2IRU4r5Gyni9/ajBke5mUU=
+github.com/cevixe/cdk v0.4.2 h1:emcvIHpQkkMf8ylI9LqVKYpzholfRwDi/jfSPMkrV4s=
+github.com/cevixe/cdk v0.4.2/go.mod h1:+uDFT/Vux/0V9b4daIfuP2IRU4r5Gyni9/ajBke5mUU=
 github.com/google/go-cmp v0.5.8/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
 github.com/jmespath/go-jmespath v0.4.0/go.mod h1:T8mJZnbsbmF+m6zOOFylbeCJqk5+pHWvzYPziyZiYoo=
 github.com/jmespath/go-jmespath/internal/testify v1.5.1/go.mod h1:L3OGu8Wl2/fWfCI6z80xFu9LTZmf1ZRjMHUOPmWr69U=

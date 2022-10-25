@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/aws/aws-cdk-go/awscdk/v2 v2.47.0
 	github.com/aws/jsii-runtime-go v1.70.0
-	github.com/cevixe/cdk v0.4.1
+	github.com/cevixe/cdk v0.4.2
 )
 
 require (
