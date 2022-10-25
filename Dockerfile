@@ -28,6 +28,7 @@ ENV CEVIXE_WORKSPACE="/test"
 
 COPY entrypoint.sh /entrypoint.sh
 
+RUN mkdir ~/.aws
 RUN touch ~/.aws/credentials
 
 ENTRYPOINT ["/entrypoint.sh"]
