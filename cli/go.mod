@@ -5,11 +5,12 @@ go 1.19
 require (
 	github.com/aws/aws-cdk-go/awscdk/v2 v2.47.0
 	github.com/aws/jsii-runtime-go v1.70.0
-	github.com/cevixe/cdk v0.4.4
+	github.com/cevixe/cdk v0.4.5
 )
 
 require (
 	github.com/Masterminds/semver/v3 v3.1.1 // indirect
+	github.com/aws/aws-cdk-go/awscdklambdagoalpha/v2 v2.47.0-alpha.0 // indirect
 	github.com/aws/constructs-go/constructs/v10 v10.1.137 // indirect
 	github.com/cevixe/app v0.3.0 // indirect
 	github.com/mattn/go-isatty v0.0.16 // indirect

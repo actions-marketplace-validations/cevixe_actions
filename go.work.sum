@@ -1,4 +1,3 @@
-github.com/aws/aws-cdk-go/awscdklambdagoalpha/v2 v2.47.0-alpha.0 h1:Vecux2H6rjWDnXprhZaNyUXCDG3kg10gSdNH2cp5IuM=
 github.com/aws/aws-lambda-go v1.34.1/go.mod h1:jwFe2KmMsHmffA1X2R09hH6lFzJQxzI8qK17ewzbQMM=
 github.com/aws/aws-sdk-go-v2 v1.17.0/go.mod h1:SwiyXi/1zTUZ6KIAmLK5V5ll8SiURNUYOqTerZPaF9k=
 github.com/aws/aws-sdk-go-v2/config v1.17.9/go.mod h1:NGC2Ut1x1Gl+qBdh4uGdqRTDtk6f3qS8VQ45kEoyAvM=
@@ -15,8 +14,8 @@ github.com/aws/aws-sdk-go-v2/service/sts v1.17.0/go.mod h1:9pZN58zQc5a4Dkdnhu/rI
 github.com/aws/smithy-go v1.13.3/go.mod h1:Tg+OJXh4MB2R/uN61Ko2f6hTZwB/ZYGOtib8J3gBHzA=
 github.com/cevixe/cdk v0.3.4 h1:9nQfFDnoCLWMJE4v9ywaSkBBoG8MkYCaW/784Y6I5ME=
 github.com/cevixe/cdk v0.3.4/go.mod h1:PDazxOHZ0H5CclIhQOIwnEeP1sYksYtPbBKklnOljb4=
-github.com/cevixe/cdk v0.4.4 h1:Gj1+zZDmxSv4QIdv+nRBFxg3xM08gCC+MPQD2Oc72+0=
-github.com/cevixe/cdk v0.4.4/go.mod h1:qDJgCpUhbDf+yvLePdjrQIgZs//Ma9AZsdF7VMNqsIw=
+github.com/cevixe/cdk v0.4.5 h1:pwXK/v/ugCWeIL6XRUupkWsA4tsbqKzJUxbnnFq1V3o=
+github.com/cevixe/cdk v0.4.5/go.mod h1:qDJgCpUhbDf+yvLePdjrQIgZs//Ma9AZsdF7VMNqsIw=
 github.com/google/go-cmp v0.5.8/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
 github.com/jmespath/go-jmespath v0.4.0/go.mod h1:T8mJZnbsbmF+m6zOOFylbeCJqk5+pHWvzYPziyZiYoo=
 github.com/jmespath/go-jmespath/internal/testify v1.5.1/go.mod h1:L3OGu8Wl2/fWfCI6z80xFu9LTZmf1ZRjMHUOPmWr69U=
