@@ -28,10 +28,10 @@ function runCevixeCli(){
 	if [ "$INPUT_COMMAND" == "build" ]; then
 		cdk synth 2>&1 | tee output.log
 		exitCode=${?}
-	elif [ "$INPUT_COMMAND" != "diff" ]; then
+	elif [ "$INPUT_COMMAND" == "diff" ]; then
 		cdk diff 2>&1 | tee output.log
 		exitCode=${?}
-	elif [ "$INPUT_COMMAND" != "deploy" ]; then
+	elif [ "$INPUT_COMMAND" == "deploy" ]; then
 		cdk deploy --all --require-approval never 2>&1 | tee output.log
 		exitCode=${?}
 	fi
