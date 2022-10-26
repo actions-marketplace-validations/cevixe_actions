@@ -18,14 +18,24 @@ function configureApp(){
 }
 
 function runCevixeCli(){
+
 	cd /cli
-
 	configureApp
-
+	
 	echo "Run cvx ${INPUT_COMMAND}"
 	set -o pipefail
-	cdk ${INPUT_COMMAND} 2>&1 | tee output.log
-	exitCode=${?}
+
+	if [ "$INPUT_COMMAND" == "build" ]; then
+		cdk synth 2>&1 | tee output.log
+		exitCode=${?}
+	elif [ "$INPUT_COMMAND" != "diff" ]; then
+		cdk diff 2>&1 | tee output.log
+		exitCode=${?}
+	elif [ "$INPUT_COMMAND" != "deploy" ]; then
+		cdk deploy --all --require-approval never 2>&1 | tee output.log
+		exitCode=${?}
+	fi
+
 	set +o pipefail
 	echo ::set-output name=status::${exitCode}
 	output=$(cat output.log)
@@ -41,10 +51,16 @@ function runCevixeCli(){
 	if [ "$GITHUB_EVENT_NAME" == "pull_request" ]; then
 		commentWrapper="#### \`cvx ${INPUT_COMMAND}\` ${commentStatus}
 <details><summary>Show Output</summary>
+
+
 \`\`\`
 ${output}
 \`\`\`
+
+
 </details>
+
+
 *Workflow: \`${GITHUB_WORKFLOW}\`, Action: \`${GITHUB_ACTION}\`*"
 
 		payload=$(echo "${commentWrapper}" | jq -R --slurp '{body: .}')
