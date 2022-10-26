@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: cvx diff
+      - name: Diff
         uses: cevixe/actions@v1
         with:
           command: 'diff'
@@ -21,7 +21,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: 'us-east-1'
 
-      - name: cvx deploy
+      - name: Deploy
         uses: cevixe/actions@v1
         with:
           command: 'deploy'
